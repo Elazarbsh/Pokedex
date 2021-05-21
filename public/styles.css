@@ -1,0 +1,297 @@
+h1{
+    font-size: 2rem;
+    color: #DBEDF3;
+    text-shadow: 3px 0 #DA0463;
+}
+
+body {
+    text-align: center;
+    background-color: #ddd3ee;
+    font-family: 'Press Start 2P', cursive;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    transition: transform .2s;
+    padding: 20px;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+h1.title{
+    font-size: 2rem;
+    color: blueviolet;  
+    text-shadow: 3px 0 #DA0463;
+}
+
+h1.id{
+    font-size: 75%;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+h1.name{
+    font-size: 75%;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.info-div{
+    width: 25%;
+    height: 10%;
+    background-color: white;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: auto;
+    display:inline-block;
+    border: 5px solid blueviolet;
+    word-wrap: break-word;
+}
+
+.title-div{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.types-div{
+    background-color: blueviolet;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.stats-div{
+    border: 5px solid blueviolet;
+}
+
+.button{
+    background-color:blueviolet;  
+    border: none;
+    color: white;
+    text-shadow: 3px 0 #DA0463;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.fixed-button {
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    width: 30%;
+}
+
+.about{
+    width: 75%;
+    margin: auto;
+    line-height: 2em;
+    text-align: left;
+}
+
+.type {
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 6px;
+	font-size: 10px;
+	color: #FFF;
+	background-color:gray;
+	border: 1px solid #44685E;
+}
+
+.normal {
+	background-color: #A8A878;
+	border: 1px solid #6D6D4E;
+}
+
+.fire {
+	background-color: #F08030;
+	border: 1px solid #9C531F;
+}
+
+.water {
+	background-color: #6890F0;
+	border: 1px solid #445E9C;
+}
+
+.electric {
+	background-color: #F8D030;
+	border: 1px solid #A1871F;
+}
+
+.grass {
+	background-color: #78C850;
+	border: 1px solid #4E8234;
+}
+
+.ice {
+	background-color: #98D8D8;
+	border: 1px solid #638D8D;
+}
+
+.ground {
+	background-color: #E0C068;
+	border: 1px solid #927D44;
+}
+
+.flying {
+	background-color: #A890F0;
+	border: 1px solid #6D5E9C;
+}
+
+.ghost {
+	background-color: #705898;
+	border: 1px solid #493963;
+}
+
+.rock {
+	background-color: #B8A038;
+	border: 1px solid #786824;
+}
+
+.fighting {
+	background-color: #C03028;
+	border: 1px solid #7D1F1A;
+}
+
+.poison {
+	background-color: #A040A0;
+	border: 1px solid #682A68;
+}
+
+.psychic {
+	background-color: #F85888;
+	border: 1px solid #A13959;
+}
+
+.bug {
+	background-color: #A8B820;
+	border: 1px solid #6D7815;
+}
+
+.fairy {
+	background-color: #705848;
+	border: 1px solid #49392F;
+}
+
+.steel {
+	background-color: #B8B8D0;
+	border: 1px solid #787887;
+}
+
+.dragon {
+	background-color: #7038F8;
+	border: 1px solid #4924A1;
+}
+
+
+.normal-background {
+	background-color: #F1EEE2;
+	border: 1px solid #6D6D4E;
+}
+
+.fire-background {
+	background-color: #FFE6BC;
+	border: 1px solid #9C531F;
+}
+
+.water-background {
+	background-color: #C3E3FF;
+	border: 1px solid #445E9C;
+}
+
+.electric-background {
+	background-color: #FCFFAE;
+	border: 1px solid #A1871F;
+}
+
+.grass-background {
+	background-color: #D1FFD1;
+	border: 1px solid #4E8234;
+}
+
+.ice-background {
+	background-color: #E1FFFE;
+	border: 1px solid #638D8D;
+}
+
+.ground-background {
+	background-color: #E9D4A1;
+	border: 1px solid #927D44;
+}
+
+.flying-background {
+	background-color: #EFF2FF;
+	border: 1px solid #6D5E9C;
+}
+
+.ghost-background {
+	background-color: #C5ADCA;
+	border: 1px solid #493963;
+}
+
+.rock-background {
+	background-color: #E7D9CB;
+	border: 1px solid #786824;
+}
+
+.fighting-background {
+	background-color: #FFDEDE;
+	border: 1px solid #7D1F1A;
+}
+
+.poison-background {
+	background-color: #DFC9E9;
+	border: 1px solid #682A68;
+}
+
+.psychic-background {
+	background-color: #FBCEF9;
+	border: 1px solid #A13959;
+}
+
+.bug-background {
+	background-color: #EFF2BE;
+	border: 1px solid #6D7815;
+}
+
+.fairy-background {
+	background-color: #E1DFD6;
+	border: 1px solid #49392F;
+}
+
+.steel-background {
+	background-color: #F9F9F9;
+	border: 1px solid #787887;
+}
+
+.dragon-background {
+	background-color: #C3C6FF;
+	border: 1px solid #4924A1;
+}
+
+
+#stats-title{
+    margin-top: 4rem;
+}
+
+#main-div{
+    margin: auto;
+}
+
+#view-all-button{
+    margin: 4em;
+}
